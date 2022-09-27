@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="module" src="/profile.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <title>Quizzes - Profile</title>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="/">Home</a>
+    <a href="/profile">Active: Profile</a>
+    <a href="/quizzes">Quiz</a>
+    <a href="/quiz-manager">New Quiz</a>
+    <a href="/userguide.html">User Guide</a>
+  </div>
+  <section class="full-width">
+    <h2>Welcome, </h2>
+    <p>Here you can change your username and password. Simply input your new username and password in the fields below</p>
+    <div class="rounded-container padded-container inline-block-container">
+      <h3 style="text-align: center;">Change username or password</h3>
+      <form action="">
+        <input id="username-input" type="text" placeholder="New username" autocomplete="username">
+        <input id="password-input" type="password" placeholder="New password" autocomplete="new-password">
+        <input id="password-repeat-input" type="password" placeholder="Repeat new password" autocomplete="new-password">
+      </form>
+      <div id="save-creds-btn" class="btn middle-btn">Save</div>
+      <p class="no-input-error" style="display: none; text-align: center"></p>
+      <h3 style="text-align: center;">Logout?</h3>
+      <div id="log-out-btn" class="btn middle-btn bottom-btn">Log Out</div>
+    </div>
+  </section>
+  <div class="footer">
+    <p>Contact: Fake@fakeemail.com</p>
+  </div>
+</body>
+</html>

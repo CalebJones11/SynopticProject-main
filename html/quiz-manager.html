@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script type="module" src="/quiz-manager.js"></script>
+  <link rel="stylesheet" href="/style.css">
+  <title>Quizzes - Quiz Manager</title>
+</head>
+<body>
+  <div class="topnav">
+    <a class="active" href="/">Home</a>
+    <a href="/profile">Profile</a>
+    <a href="/quizzes">Quiz</a>
+    <a href="/quiz-manager">Active: New Quiz</a>
+    <a href="/userguide.html">User Guide</a>
+  </div>
+  <div id="title-container" class="full-width">
+    <input id="name-quiz" type="text" placeholder="Quiz Name">
+  </div>
+  <section class="full-width">
+    <h2>Question 1/0</h2>
+    <p>Filling in your Quiz is simple! Enter your quiz name at the top of the page and begin filling in the question forms.
+     Once you're finished press submit and your quiz will be saved! 
+    </p>
+    <div class="rounded-container block-container padded-container">
+      <input type="text" placeholder="Question?" id="question-input">
+      <select name="question-type" id="question-type-input">
+        <option value="" disabled selected hidden>Select type of question</option>
+        <option value="input">Input</option>
+        <option value="list">List</option>
+      </select>
+      <div id="question-answers">
+      </div>
+      <div class="btn question-buttons" id="back-button" style="display: none">Back</div>
+      <div class="btn question-buttons" id="next-button">Next</div>
+    </div>
+  </section>
+  <div class="footer">
+    <p>Contact: Fake@fakeemail.com</p>
+  </div>
+</body>
+</html>

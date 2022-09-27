@@ -1,0 +1,17 @@
+[
+  {
+    "login": "admin",
+    "password": "admin",
+    "permissions": "EDIT"
+  },
+  {
+    "login": "contributor",
+    "password": "contributor",
+    "permissions": "VIEW"
+  },
+  {
+    "login": "user",
+    "password": "user",
+    "permissions": "RESTRICTED"
+  }
+]

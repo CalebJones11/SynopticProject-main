@@ -1,0 +1,38 @@
+{
+  "name": "quiz-manager-app",
+  "version": "1.0.0",
+  "description": "Quiz Manager for Synoptic project 2022",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CalebJones11/SynopticProject"
+  },
+  "keywords": [
+    "Quiz",
+    "Manager",
+    "Quiz Manager"
+  ],
+  "author": "Caleb Jones",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CalebJones11/SynopticProject/issues"
+  },
+  "homepage": "https://github.com/CalebJones11/SynopticProject#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongodb": "^3.6.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
