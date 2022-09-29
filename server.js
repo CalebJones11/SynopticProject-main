@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const MongoClient = require('mongodb').MongoClient;
-const uri = "mongodb+srv://admin:o3JDm6J0Da5qY8QP@quizmanagerdb.rz4fngv.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://admin:admin@quizmanagerdb.rz4fngv.mongodb.net/?retryWrites=true&w=majority";
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true });
 const { ObjectId } = require('mongodb');
 const saltRounds = 10;
